@@ -8,7 +8,7 @@ This is the first of three Mini Projects that will be conducted over the course.
 
 A good reference to the scope and structure of this project can be found in **Module 4: Lab 10: Web-E-Commerce** _Module 4 slide 91_.
 
-Your project should demonstrate creativity, solid front-ed development practices, and the ability to connect and present data from an external or internal source.
+Your project should demonstrate creativity, solid front-end development practices, and the ability to connect and present data from an external or internal source.
 
 ## Project Goals
 
