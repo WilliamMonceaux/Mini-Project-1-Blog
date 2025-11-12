@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('images/chess-pattern.jpg');
+    background-repeat: repeat;
+}
