@@ -13,18 +13,6 @@ body {
     background-repeat: repeat;
 }
 
-header {
-    background-color: grey;
-    padding: 2rem;
-    text-align: center;
-    font-family: Roboto;
-}
-
-header > p {
-    margin-top: 3rem;
-    font-size: 3rem;
-}
-
 h1 {
     font-size: 5rem;
 }
@@ -62,6 +50,3 @@ li a.active {
 li a:hover:not(.active) {
     color: whitesmoke;
 }
-
-
-
