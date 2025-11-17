@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #8F8F8F;
+    background-color: grey;
     padding: 2rem;
     text-align: center;
     font-family: Roboto;
@@ -28,3 +28,41 @@ header > p {
 h1 {
     font-size: 5rem;
 }
+
+nav.navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style-type: none;
+    width: 100%;
+    margin: 2rem ;
+    background-color: #8F8F8F;
+    overflow: auto;
+    font-size: 1.6rem;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+}
+
+li a.active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+li a:hover:not(.active) {
+    color: whitesmoke;
+}
+
+
+
