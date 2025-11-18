@@ -52,3 +52,12 @@ li a:hover:not(.active) {
     background-color: #707070;
     color: whitesmoke;
 }
+
+div.col-lg-6 > strong {
+    font-size: 2rem;
+    border:solid black 1px;
+    background-color: rgba(255,255,255);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+}
