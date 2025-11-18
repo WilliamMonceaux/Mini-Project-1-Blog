@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url('https://freesvg.org/img/playablechessboardcolored3.png');
+    background-image: url('./pictures/checker-board.png');
     background-repeat: repeat;
 }
 
