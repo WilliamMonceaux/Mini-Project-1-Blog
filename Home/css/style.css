@@ -17,12 +17,6 @@ h1 {
     font-size: 5rem;
 }
 
-nav.navigation {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -49,6 +43,12 @@ li a.active {
 
 li a:hover:not(.active) {
     color: whitesmoke;
+}
+
+nav.navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.col-md-4 > strong {
