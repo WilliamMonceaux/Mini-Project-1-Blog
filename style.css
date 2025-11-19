@@ -29,7 +29,6 @@ ul {
     justify-content:space-around;
     list-style-type: none;
     width: 100%;
-    background-color: #8F8F8F;
     overflow: auto;
     font-size: 1.6rem;
 }
@@ -49,11 +48,10 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-    background-color: #707070;
     color: whitesmoke;
 }
 
-div.col-lg-6 > strong {
+div.col-md-4 > strong {
     font-size: 2rem;
     border:solid black 1px;
     background-color: rgba(255,255,255);
