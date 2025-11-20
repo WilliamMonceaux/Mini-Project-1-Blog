@@ -17,34 +17,46 @@
     <header>
       <div class="container-fluid text-bg-secondary p-5 text-center">
         <div class="row">
-          <h1 class="display-1">Make a Account!</h1>
+          <h1 class="display-1">Create Account</h1>
         </div>
       </div>
     </header>
 
     <nav class="navigation">
       <ul class="text-bg-secondary">
-        <li><a class="active" href="#Home"> Home </a></li>
-        <li><a href="#Sign-Up"> Sign-Up </a></li>
+        <li><a href="#Home"> Home </a></li>
+        <li><a class="active" href="#Sign-Up"> Sign-Up </a></li>
         <li><a href="#Thread"> Thread </a></li>
         <li><a href="#About"> About </a></li>
       </ul>
     </nav>
 
+    <div class="container my-5 ">
+      <div
+        class="row d-flex justify-content-center"
+      >
+        <div
+          class="col-sm-9 col-md-8 col-lg-5 p-5 bg-light rounded border border-dark"
+        >
+        
+          <div class=" mb-3 text-center mx-auto">
+            <h3>
+            <strong>Fill out the form to create an account</strong>
+            </h3>
+          </div>
 
-    <div class="container my-5">
-      <div class="row d-flex justify-content-center align-items-center min-vh-100">
-        <div class="col-sm-9 col-md-8 col-lg-7 p-5 bg-light rounded border border-dark">
           <form>
-            <div class="form-group">
-              <label for="username" class="form-label">Username:</label>
-              <input type="text" class="form-control" id="username">
+            <fieldset>
+            <div class="form-group mb-4">
+              <legend for="username" class="form-label">Username:</legend>
+              <input type="text" class="form-control" id="username" />
             </div>
             <div class="form-group">
-              <label for="password" class=form-label>Password:</label>
-                <input type="password" class="form-control" id="password">
-                <button type="submit" class="btn btn-primary"> Submit </button>
-              </div>
+              <legend for="password" class="form-label">Password:</legend>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <button type="submit" class="btn btn-primary ">Submit</button>
+            </fieldset>
           </form>
         </div>
       </div>
