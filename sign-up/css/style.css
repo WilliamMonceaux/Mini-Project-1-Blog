@@ -51,6 +51,10 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
+form {
+    font-size:2rem;
+}
+
 
 @media screen and (max-width: 576px) {
     ul {
