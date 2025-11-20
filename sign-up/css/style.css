@@ -36,8 +36,8 @@ li a {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-form {
-    font-size:2rem;
+strong {
+    font-size: 2rem;
 }
 
 form .btn {
@@ -66,6 +66,10 @@ nav.navigation {
 
 .form-group .form-control {
     font-size: 1.6rem;
+}
+
+legend.form-label {
+    font-size: 2rem;
 }
 
 
