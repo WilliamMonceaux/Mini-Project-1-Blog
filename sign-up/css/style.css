@@ -36,6 +36,15 @@ li a {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+form {
+    font-size:2rem;
+}
+
+form .btn {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
 li a.active {
     background-color: black;
     color: whitesmoke;
@@ -51,8 +60,12 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
-form {
-    font-size:2rem;
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group .form-control {
+    font-size: 1.6rem;
 }
 
 
