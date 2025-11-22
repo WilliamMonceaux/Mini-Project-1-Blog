@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url('../pictures/checkerpattern.png');
+    background-image: url('../images/checkerpattern.png');
     background-repeat: repeat;
 }
 
@@ -36,13 +36,8 @@ li a {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-strong {
-    font-size: 2rem;
-}
-
-form .btn {
+ol {
     font-size: 1.6rem;
-    margin-top: 2rem;
 }
 
 li a.active {
@@ -60,17 +55,33 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
+
+div.col-md-4 > strong {
+    font-size: 2rem;
+    border:solid black 1px;
+    background-color: rgba(255,255,255);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
 }
 
-.form-group .form-control {
-    font-size: 1.6rem;
+
+#username-display {
+    font-size: 1.5rem;
 }
 
-legend.form-label {
+#username {
     font-size: 2rem;
 }
+
+#post {
+    font-size: 2rem;
+}
+
+#posted-message-display {
+    font-size: 1.7rem;
+}
+
 
 
 @media screen and (max-width: 576px) {
