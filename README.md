@@ -1,1 +1,1 @@
-Figma wire frame design: https://www.figma.com/design/eNUWSUGZ1G8WLw59dR2jIv/Mini-Project-1--Chess-Blog-website?node-id=0-1&p=f&t=FwvnzAvyIVLghVxl-0
+Figma wire frame design: https://www.figma.com/design/eNUWSUGZ1G8WLw59dR2jIv/Mini-Project-1--Chess-Blog-website?node-id=0-1&p=f&t=y1LM8PsAAPLHzz26-0
