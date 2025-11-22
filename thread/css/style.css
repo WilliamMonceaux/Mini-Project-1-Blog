@@ -110,7 +110,7 @@ html {
 }
 
 body {
-    background-image: url('../pictures/checkerpattern.png');
+    background-image: url('../images/checkerpattern.png');
     background-repeat: repeat;
 }
 
@@ -137,9 +137,6 @@ li a {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-strong {
-    font-size: 2rem;
-}
 
 form .btn {
     font-size: 1.6rem;
@@ -161,15 +158,11 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
+.card .btn {
+    font-size: 1.5rem;
 }
 
-.form-group .form-control {
-    font-size: 1.6rem;
-}
-
-legend.form-label {
+.card-title {
     font-size: 2rem;
 }
 
