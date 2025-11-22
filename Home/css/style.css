@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url('../pictures/checker-board.png');
+    background-image: url('../images/checkerpattern.png');
     background-repeat: repeat;
 }
 
