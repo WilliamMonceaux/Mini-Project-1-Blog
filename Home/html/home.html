@@ -37,7 +37,8 @@
     </nav>
     
 
-    <section class="container my-5 d-flex justify-content-center">
+    <section class="container my-5 d-flex justify-content-center" id="community-info">
+
         <div class="row w-100 justify-content-center g-5">
 
         <div class="col-12 col-lg-6">
@@ -49,6 +50,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
+          id="featured-video"
         ></iframe>
         </div>
       </div>
@@ -79,28 +81,29 @@
     </section>
 
     <main>
-
-        <div class="container bg-dark text-center">
-        <div class="row">
-          <div class="username-container col-lg-2 border border-dark ">
+      <div class="container bg-transparent text-center" id="user-post-display">
+        <div class="row" id="post-list">
+          <div class="username-container bg-dark col-lg-2 border border-dark ">
             <p class="text-light" id="username-display">UserName:</p>
           </div>
-          <div class="col-10 border text-light border-dark" id="posted-message-display">
+          <div class="col-10 border bg-dark text-light border-dark" id="posted-message-display">
             <p> Post:</p>
           </div>
         </div>
       </div>
-     
-      <div class="container bg-light text-center">
+
+      <template id="post-template">
+      <div class="container bg-light text-center" id="user-post" >
         <div class="row">
-          <div class="username-container col-lg-2 border border-dark p-2">
-            <p class="text-dark" id="username">UserName:</p>
+          <div class="username-container bg-light col-lg-2 border border-dark p-2">
+            <p class="text-dark" id="username" data-user>UserName:</p>
           </div>
-          <div class="col-10 border border-dark" id="post">
-            <p> Post:</p>
+          <div class="col-10 bg-secondary border border-dark" id="post">
+            <p class="text-light" data-post> Post:</p>
           </div>
         </div>
       </div>
+      </template>
 
     </main>
 
