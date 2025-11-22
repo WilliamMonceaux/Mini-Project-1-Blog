@@ -55,6 +55,7 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
+
 div.col-md-4 > strong {
     font-size: 2rem;
     border:solid black 1px;
@@ -62,6 +63,23 @@ div.col-md-4 > strong {
     padding: 1rem;
     border-radius: 1rem;
     display: block;
+}
+
+
+#username-display {
+    font-size: 1.5rem;
+}
+
+#username {
+    font-size: 2rem;
+}
+
+#post {
+    font-size: 2rem;
+}
+
+#posted-message-display {
+    font-size: 1.7rem;
 }
 
 
