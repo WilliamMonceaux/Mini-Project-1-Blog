@@ -40,8 +40,8 @@ ol {
     font-size: 1.6rem;
 }
 
-a:link {
-    text-decoration: none;
+table {
+    font-size: 2rem;
 }
 
 li a.active {
@@ -69,22 +69,10 @@ div.col-md-4 > strong {
     display: block;
 }
 
-
-#username-display {
-    font-size: 1.5rem;
+#user-post {
+    font-size: 1.6rem;
 }
 
-#username {
-    font-size: 2rem;
-}
-
-#post {
-    font-size: 2rem;
-}
-
-#posted-message-display {
-    font-size: 1.7rem;
-}
 
 
 
