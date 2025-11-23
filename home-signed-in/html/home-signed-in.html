@@ -58,7 +58,7 @@
       
         <article class="community-news-board col-12 col-lg-6">
           <div class="bg-light text-center h-100 p-4 border border-dark ">
-          <h4 class="mb-4 display-2">Community News:</h4>
+          <h2 class="mb-4 display-2">Community News:</h2>
           <ol class="list-group list-group-numbered ">
             <li class="list-group-item list-group-item-info mb-4">Magnus Carlson won the the Clutch Chess: Champions Showdown on October 29, 2025</li>
             <li class="list-group-item list-group-item-info mb-4">Fabiano Caruana wins the Grand Chess Tour Obtober 3, 2025</li>
@@ -70,32 +70,27 @@
 
         </section>
 
-    <main>
-      <div class="container bg-transparent text-center" id="user-post-display">
-        <div class="row" id="post-list">
-          <div class="username-container bg-dark col-lg-2 border border-dark ">
-            <p class="text-light" id="username-display">UserName:</p>
-          </div>
-          <div class="col-10 border bg-dark text-light border-dark" id="posted-message-display">
-            <p> Post:</p>
-          </div>
-        </div>
-      </div>
+<main>
+  <div class="container mt-4">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th class="col-lg-2">Username:</th>
+          <th class="col-10">Post:</th>
+        </tr>
+      </thead>
+      <tbody id="post-list">
+      </tbody>
+    </table>
+  </div>
 
-      <template id="post-template">
-      <div class="container bg-light text-center" id="user-post" >
-        <div class="row">
-          <div class="username-container bg-light col-lg-2 border border-dark p-2">
-            <p class="text-dark" id="username" data-user>UserName:</p>
-          </div>
-          <div class="col-10 bg-secondary border border-dark" id="post">
-            <p class="text-light" data-post> Post:</p>
-          </div>
-        </div>
-      </div>
-      </template>
-
-    </main>
+  <template id="post-template">
+    <tr>
+      <td class="col-lg-2 text-dark" data-user>Username:</td>
+      <td class="col-10 text-dark" id="user-post" data-post>Post:</td>
+    </tr>
+  </template>
+</main>
 
   </body>
 </html>

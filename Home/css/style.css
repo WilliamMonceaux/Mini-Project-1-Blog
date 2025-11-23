@@ -40,6 +40,10 @@ ol {
     font-size: 1.6rem;
 }
 
+table {
+    font-size: 2rem;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -72,9 +76,6 @@ div.col-md-4 > strong {
 #user-post {
     font-size: 1.6rem;
 }
-
-
-
 
 @media screen and (max-width: 576px) {
     ul {
