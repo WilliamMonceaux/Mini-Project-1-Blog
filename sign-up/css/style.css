@@ -40,6 +40,14 @@ ol {
     font-size: 1.6rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-size: 2rem;
+}
+
 li a.active {
     background-color: black;
     color: whitesmoke;
@@ -65,15 +73,15 @@ div.col-md-4 > strong {
     display: block;
 }
 
-a {
-    text-decoration: none;
-}
-
-strong {
-    font-size: 2rem;
-}
-
 form .btn {
+    font-size: 1.6rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group .form-control {
     font-size: 1.6rem;
 }
 
