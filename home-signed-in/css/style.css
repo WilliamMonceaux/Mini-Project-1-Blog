@@ -44,6 +44,10 @@ table {
     font-size: 2rem;
 }
 
+footer {
+    font-size: 1.6rem;
+}
+
 li a.active {
     background-color: black;
     color: whitesmoke;
