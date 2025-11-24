@@ -40,12 +40,22 @@ ol {
     font-size: 1.6rem;
 }
 
+<<<<<<< HEAD
 a {
     text-decoration: none;
 }
 
 strong {
     font-size: 2rem;
+=======
+footer {
+    font-size: 1.6rem;
+}
+
+form .btn {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+>>>>>>> signup
 }
 
 li a.active {
