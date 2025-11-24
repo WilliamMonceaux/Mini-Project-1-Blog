@@ -36,6 +36,10 @@ li a {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+footer {
+    font-size: 1.6rem;
+}
+
 
 form .btn {
     font-size: 1.6rem;
