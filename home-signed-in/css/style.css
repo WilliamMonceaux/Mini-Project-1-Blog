@@ -48,6 +48,14 @@ footer {
     font-size: 1.6rem;
 }
 
+form {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+}
+
 li a.active {
     background-color: black;
     color: whitesmoke;
@@ -55,6 +63,10 @@ li a.active {
 
 li a:hover:not(.active) {
     color: whitesmoke;
+}
+
+button.btn {
+    font-size: 1.6rem;
 }
 
 nav.navigation {
@@ -74,6 +86,10 @@ div.col-md-4 > strong {
 }
 
 #user-post {
+    font-size: 1.6rem;
+}
+
+#post {
     font-size: 1.6rem;
 }
 
