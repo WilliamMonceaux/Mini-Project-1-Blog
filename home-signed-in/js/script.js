@@ -1,5 +1,5 @@
 const userNames = [];
-const userPost = 'We love playing Chess!';
+const userPost = ['We love playing Chess!'];
 
 async function getUserName() {
   try {
@@ -33,6 +33,13 @@ async function getUserName() {
   } catch (error) {
     console.error("Couldn't retrieve data:", error);
   }
+};
+getUserName();
+
+function SubmitPost(postContent) {
+  const templateCloning = document.getElementById('post-template').content.cloneNode(true);
+
+  templateClone.querySelector('[data-post]').innerText = postContent;
 }
 
-getUserName();
+
