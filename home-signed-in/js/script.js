@@ -1,6 +1,9 @@
 const userNames = [];
 const userPost = ['We love playing Chess!'];
 
+const newPost = document.getElementById('new-post-form');
+const postTextArea = document.getElementById('post');
+
 async function getUserName() {
   try {
     const response = await fetch("https://randomuser.me/api/?results=12");
@@ -34,12 +37,31 @@ async function getUserName() {
     console.error("Couldn't retrieve data:", error);
   }
 };
-getUserName();
 
-function SubmitPost(postContent) {
-  const templateCloning = document.getElementById('post-template').content.cloneNode(true);
+function submitPost(postContent, username) {
 
-  templateClone.querySelector('[data-post]').innerText = postContent;
+const templateCloning = document.getElementById('post-template').content.cloneNode(true);
+
+  templateCloning.querySelector('[data-post]').innerText = postContent;
+  templateCloning.querySelector('[data-user]').innerText = username;
+
+ document.getElementById('post-list').appendChild(templateCloning);
 }
 
+newPost.addEventListener('submit', function(e) {
+  e.preventDefault();
 
+  const newPostContent = postTextArea.value;
+
+  if (newPostContent) {
+    const users = Math.floor(Math.random() * userNames.length);
+    const randomUser = userNames[users];
+    
+    submitPost(newPostContent, randomUser);
+
+    postTextArea.value = '';
+  }
+
+});
+
+getUserName();
