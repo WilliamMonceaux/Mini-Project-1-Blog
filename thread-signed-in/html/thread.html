@@ -31,11 +31,40 @@
       </ul>
     </nav>
 
+    <section>
+            <div class="container my-5">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-sm-8 col-md-6 col-lg-4 p-5 bg-light rounded border border-dark"
+          >
+            <div class="mb-5 text-center mx-auto">
+              <h3>
+                <strong>Fill out the form to create a post</strong>
+              </h3>
+            </div>
+            <form>
+              <fieldset class="text-center">
+                <div class="form-group mb-4">
+                  <legend for="username" class="form-label">Thread topic:</legend>
+                  <input type="text" class="form-control" id="username" />
+                </div>
+                <div class="form-group">
+                  <legend for="password" class="form-label">Description</legend>
+                   <textarea class="form-control" id="post" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <main>
       <div class="container my-5">
-        <div class="row g-4" id="card-list">
+        <div class="row g-5 justify-content-center" id="card-list">
           <template id="topic-card-template">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-9 col-md-6 col-lg-3">
               <div class="card h-100">
                 <div class="card-header">
                   <img
@@ -47,7 +76,7 @@
                     <h5 class="card-title text-center" data-title></h5>
                   </div>
                   <div class="card-footer mt-auto">
-                    <a href="#" class="btn btn-primary">View Topic</a>
+                    <a href="#" class="btn btn-primary w-100">View Topic</a>
                   </div>
                 </div>
               </div>
