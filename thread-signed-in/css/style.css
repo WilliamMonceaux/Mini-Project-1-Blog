@@ -61,8 +61,21 @@ nav.navigation {
     flex-wrap: wrap;
 }
 
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group .form-control {
+    font-size: 1.6rem;
+}
+
+legend.form-label {
+    font-size: 2rem;
+}
+
 .card .btn {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .card-title {
