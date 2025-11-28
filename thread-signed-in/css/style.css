@@ -40,7 +40,6 @@ footer {
     font-size: 1.6rem;
 }
 
-
 form .btn {
     font-size: 1.6rem;
     margin-top: 2rem;
@@ -80,6 +79,17 @@ legend.form-label {
 
 .card-title {
     font-size: 2rem;
+}
+
+#logout-btn {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logout-btn a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
