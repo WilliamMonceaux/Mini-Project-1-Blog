@@ -48,22 +48,20 @@
           <div
             class="col-sm-8 col-md-6 col-lg-4 p-5 bg-light rounded border border-dark"
           >
-            <div class="mb-5 text-center mx-auto">
+            <div class="text-center mx-auto">
               <h3>
                 <strong>Fill out the form to create a post</strong>
               </h3>
             </div>
-            <form>
+            <form id="new-thread-post">
               <fieldset class="text-center">
-                <div class="form-group mb-4">
-                  <legend for="username" class="form-label">Thread topic:</legend>
-                  <input type="text" class="form-control" id="username" />
+                <div class="form-group">
                 </div>
                 <div class="form-group">
-                  <legend for="password" class="form-label">Description</legend>
+                  <legend for="password" class="form-label">Thread</legend>
                    <textarea class="form-control" id="post" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                <button type="submit" class="btn btn-primary w-100" id="submit-btn">Submit</button>
               </fieldset>
             </form>
           </div>
