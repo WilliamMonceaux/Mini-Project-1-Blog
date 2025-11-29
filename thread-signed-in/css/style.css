@@ -92,6 +92,10 @@ legend.form-label {
     color: inherit;
 }
 
+#empty-text-warning {
+    font-size: 1.6rem;
+}
+
 
 @media screen and (max-width: 576px) {
     ul {
