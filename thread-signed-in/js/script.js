@@ -3,11 +3,10 @@ const threadTopicEntries = [
   "Does drunk Magnus play better than sober Magnus?",
   "What are y'all favorite openings?",
   "Why are there so many bugs in this website?",
-  'Does anyone want to play?',
-  'I hate playing against Thelegend27. He stalls',
-  'Someone needs to ban Carter',
-  'Hi',
 ];
+
+const newThread = document.getElementById('new-thread-post');
+const postedInput = document.getElementById('post');
 
 function threadTopics() {
   threadTopicEntries.forEach((topic) => {
@@ -22,3 +21,19 @@ function threadTopics() {
 }
 
 threadTopics();
+
+function submitThread(topic) {
+  const template = document.getElementById("topic-card-template").content.cloneNode(true);
+
+  template.querySelector('[data-title]').innerText = topic;
+
+  document.getElementById('card-list').appendChild(template);
+}
+
+newThread.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const newPost = postedInput.value;
+
+  submitThread(newPost);
+})
