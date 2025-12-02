@@ -48,6 +48,17 @@ footer {
     font-size: 1.6rem;
 }
 
+<<<<<<< HEAD
+=======
+form {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+}
+
+>>>>>>> home
 li a.active {
     background-color: black;
     color: whitesmoke;
@@ -57,6 +68,13 @@ li a:hover:not(.active) {
     color: whitesmoke;
 }
 
+<<<<<<< HEAD
+=======
+button.btn {
+    font-size: 1.6rem;
+}
+
+>>>>>>> home
 nav.navigation {
     display: flex;
     justify-content: center;
@@ -77,6 +95,13 @@ div.col-md-4 > strong {
     font-size: 1.6rem;
 }
 
+<<<<<<< HEAD
+=======
+#post {
+    font-size: 1.6rem;
+}
+
+>>>>>>> home
 @media screen and (max-width: 576px) {
     ul {
         flex-direction: column;
@@ -86,4 +111,8 @@ div.col-md-4 > strong {
     li a {
         padding: 1.5rem;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> home
