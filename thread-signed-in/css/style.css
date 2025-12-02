@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../images/checkerpattern.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+    font-size: 1.6rem;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+footer {
+    font-size: 1.6rem;
+}
+
+
+form .btn {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+li a.active {
+    background-color: black;
+    color: whitesmoke;
+}
+
+li a:hover:not(.active) {
+    color: whitesmoke;
+}
+
+nav.navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card .btn {
+    font-size: 1.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    li a {
+        padding: 1.5rem;
+    }
+}
