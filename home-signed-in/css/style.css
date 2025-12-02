@@ -101,6 +101,20 @@ div.col-md-4 > strong {
     font-size: 1.6rem;
 }
 
+<<<<<<< HEAD
+>>>>>>> home
+=======
+#logout-btn {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logout-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
 >>>>>>> home
 @media screen and (max-width: 576px) {
     ul {
