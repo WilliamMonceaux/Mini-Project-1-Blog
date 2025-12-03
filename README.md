@@ -10,6 +10,7 @@ Requirements gathered:
 
 External resources used:
 Bootstrap (layouts, cards, forms, etc.)
+
 Figma
 
 Figma design: 
