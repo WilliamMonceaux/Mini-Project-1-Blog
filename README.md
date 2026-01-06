@@ -1,4 +1,4 @@
-My project is a chess blog website. The idea is basically my social media draft from Module 4 Lab 1. I decided to go about making this project since I am interested in chess
+My project is a chess blog website. I decided to go about making this project since I am interested in chess
 and thought it would be a cool idea to make a blog website dedicated to people who are also interested in chess and wanted to keep up with the latest professional chess news. I used an assortment of concepts that I have learned up to this point In this course. I hope it comes to y'all satisfaction.
 
 Requirements gathered:
