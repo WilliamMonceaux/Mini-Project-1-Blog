@@ -48,4 +48,3 @@ newThread.addEventListener('submit', (e) => {
 
     postedInput.value = '';
 });
-
